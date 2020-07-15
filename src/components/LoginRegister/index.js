@@ -1,110 +1,55 @@
-import React, { useState } from 'react';
-import styled, { css } from 'styled-components';
+import React, { useState, useReducer, useEffect } from 'react';
+import { validateLogin, validateRegister } from './utils/validate';
 import { faUserEdit, faUserAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { TweenMax, Linear } from 'gsap';
-
-const StyledMainWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 300px;   
-  border: 1px solid black;
-  border-radius: 5px;
-  overflow: hidden;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 50px;
-  min-height: 300px; 
-`;
-
-const StyledButtonsWrapper = styled.div`
-  margin-top: 0;  
-  height: 40px;
-  width: 100%;  
-`;
-
-const StyledButton = styled.button`
-  width: ${({ width }) => width};
-  height: 40px;
-  border: none;
-  font-family: inherit;
-  font-size: 16px;  
-  color: lightgray;   
-  
-  :focus{
-    border: none;
-    outline: none;
-  } 
-  
-  ${({ login }) => login && css`
-    background: ${({ theme }) => theme.buttons.green};    
-  `}  
-  
-  ${({ register }) => register && css`  
-    background: ${({ theme }) => theme.buttons.blue};    
-  `};  
-  
-  ${({ active }) => active && css`
-    color:black;
-`}
-  
-`;
-
-const StyledLogoWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  height: 100px;
-  width: 100%;
-`;
-
-const StyledParagraph = styled.p`
-  font-family: 'Audiowide', cursive;
-  height: 24px;
-`;
-
-const StyledForm = styled.form` ;
-  margin-top: 20px;
-  padding: 10px;
-  width:  100%;
-  min-height: 110px;  
-  margin-bottom: 10px;
-`;
-
-const StyledInput = styled.input`
-  height: 40px;
-  width: 100%;
-  padding: 5px;  
-  font-size: inherit;
-  background: transparent;
-  border: 1px solid grey;
-  border-radius: 5px;
-  margin-top: 10px;  
-  
-  :focus{
-    outline: none;
-  }
-`;
+import { TweenMax } from 'gsap';
+import {
+  StyledMainWrapper,
+  StyledButtonsWrapper,
+  StyledButton,
+  StyledLogoWrapper,
+  StyledInput,
+  StyledForm,
+  StyledParagraph,
+} from './LoginRegister.styles';
 
 
 const LoginRegister = () => {
-  const [mode, setMode] = useState('register');
+  const [mode, setMode] = useState('login');
+  const [errors, setErrors] = useState({});
+
+  const initState = {
+    email: '',
+    password1: '',
+    password2: '',
+  };
+
+  const formReducer = (state, { field, value }) => {
+    console.log(field, value);
+    return {
+      ...state,
+      [field]: value,
+    };
+  };
+
+  const [state, dispatch] = useReducer(formReducer, initState);
 
   const showAnimation = () => {
     const form = document.querySelector('#loginRegisterForm');
-    TweenMax.to(form, 0.5, { height: '160px' }).then(setMode('register'));
+    TweenMax.to(form, 0.3, { height: '170px' }).then(setMode('register'));
   };
 
   const hideAnimation = () => {
     const form = document.querySelector('#loginRegisterForm');
-    TweenMax.to(form, 0.5, { height: '110px' }).then(setMode('login'));
+    TweenMax.to(form, 0.3, { height: '110px' }).then(setMode('login'));
   };
 
-  const handleClick = (value) => {
-    console.log(value);
+  const handleSetFormData = (element) => {
+    const { name, value } = element.target;
+    dispatch({ field: name, value: value });
+  };
+
+  const handleClickMode = (value) => {
     if (value === 'login') {
       hideAnimation();
     } else {
@@ -112,13 +57,29 @@ const LoginRegister = () => {
     }
   };
 
+  const handleValidate = () => {
+    if (mode === 'login') {
+      setErrors(validateLogin(state));
+    } else if (mode === 'register') {
+      setErrors(validateRegister(state));
+    }
+  };
+
+  const checkFieldError = (field) => {
+    console.log(errors);
+    if (Object.keys(errors).length > 0) {
+      return Object.keys(errors).includes(field);
+    }
+  };
+
+
   return (
     <StyledMainWrapper>
       <StyledButtonsWrapper>
         <StyledButton login active={mode === 'login'} width="50%"
-                      onClick={() => handleClick('login')}>Login</StyledButton>
+                      onClick={() => handleClickMode('login')}>Login</StyledButton>
         <StyledButton register active={mode === 'register'} width="50%"
-                      onClick={() => handleClick('register')}>Register</StyledButton>
+                      onClick={() => handleClickMode('register')}>Register</StyledButton>
       </StyledButtonsWrapper>
       <StyledLogoWrapper>
         <StyledParagraph>
@@ -128,11 +89,18 @@ const LoginRegister = () => {
         {mode === 'login' && <FontAwesomeIcon icon={faUserAlt}/>}
       </StyledLogoWrapper>
       <StyledForm id="loginRegisterForm">
-        <StyledInput placeholder="e-mail"/>
-        <StyledInput type="password" placeholder="Password"/>
-        <StyledInput type="password" placeholder="Confirm password"/>
+        <StyledInput error={checkFieldError('email')} placeholder="e-mail" name="email" value={state.email}
+                     onChange={(element) => handleSetFormData(element)}/>
+        <StyledInput error={checkFieldError('password1')} type="password" name="password1" value={state.password1}
+                     onChange={(element) => handleSetFormData(element)}
+                     placeholder="Password"/>
+        <StyledInput error={checkFieldError('password2')} type="password" name="password2" value={state.password2}
+                     onChange={(element) => handleSetFormData(element)}
+                     placeholder="Confirm password"/>
       </StyledForm>
-      <StyledButton width='100%' login>Register</StyledButton>
+      <StyledButton width='100%'
+                    login
+                    onClick={handleValidate}>{mode === 'register' ? 'Register' : 'Login'} </StyledButton>
     </StyledMainWrapper>
   );
 };
