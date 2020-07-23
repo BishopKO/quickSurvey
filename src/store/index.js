@@ -1,4 +1,7 @@
 import reducer from './reducer';
-import { createStore } from 'redux';
+import thunk from 'redux-thunk';
+import { createStore, applyMiddleware, compose } from 'redux';
 
-const store = createStore(reducer);
+const store = createStore(reducer, compose(applyMiddleware(thunk)));
+
+export default store;

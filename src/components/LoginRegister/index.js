@@ -13,10 +13,17 @@ import {
   StyledParagraph,
 } from './LoginRegister.styles';
 
+import store from 'store';
+
 
 const LoginRegister = () => {
   const [mode, setMode] = useState('login');
   const [errors, setErrors] = useState({});
+
+
+  useEffect(() => {
+    store.dispatch({ type: 'janex', payload: 'cos tam' });
+  });
 
   const initState = {
     email: '',
@@ -66,12 +73,10 @@ const LoginRegister = () => {
   };
 
   const checkFieldError = (field) => {
-    console.log(errors);
     if (Object.keys(errors).length > 0) {
       return Object.keys(errors).includes(field);
     }
   };
-
 
   return (
     <StyledMainWrapper>
