@@ -11,6 +11,10 @@ const IconButton = styled.button`
   border: .5px solid lightgray;
   border-radius: 3px;
   opacity: 0.6; 
+  
+  :hover{
+    cursor: pointer;
+  }
 `;
 
 export default IconButton;

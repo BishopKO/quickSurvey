@@ -10,7 +10,7 @@ const Root = () => {
 
   return (
     <MainTemplate>
-      {/*<LoginRegister/>*/}
+      <LoginRegister/>
       <SurveyMainPanel mobile/>
     </MainTemplate>
   );

@@ -45,10 +45,8 @@ const StyledPanelHead = styled.div`
     
   div:nth-child(3){
     padding-right: 5px;
-  }  
-  
+  }    
 `;
-
 
 const SurveysMainPanel = ({ mobile }) => {
   const [currentOptions, setCurrentOptions] = useState(null);
@@ -76,7 +74,7 @@ const SurveysMainPanel = ({ mobile }) => {
           <div>Options</div>
         </StyledPanelHead>
 
-        <Row mobile activateOptions={handleShowOptions} number={0} open={currentOptions === 0}/>
+        <Row active mobile activateOptions={handleShowOptions} number={0} open={currentOptions === 0}/>
         <Row mobile activateOptions={handleShowOptions} number={1} open={currentOptions === 1}/>
 
       </StyledPanelMobile>}

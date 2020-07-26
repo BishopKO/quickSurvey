@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/components/LoginRegister/index.js" line="43" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" line="12" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="952aa5e8-de28-45b3-8ad3-ae9cecb80843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview-head.html" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview-head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SurveysMainPanel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SurveysMainPanel/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/mainTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/mainTheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Root/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1211">
-              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+            <state relative-caret-position="813">
+              <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -36,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="728">
+              <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -46,34 +41,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Root/index.js">
+        <entry file="file://$PROJECT_DIR$/src/theme/mainTheme.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButton/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="221">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#4#155#0" />
+                <element signature="e#4#86#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,12 +111,13 @@
         <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/SurveysMainPanel.stories.js" />
         <option value="$PROJECT_DIR$/src/theme/mainTheme.js" />
         <option value="$PROJECT_DIR$/src/assets/editIcon.svg" />
-        <option value="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" />
-        <option value="$PROJECT_DIR$/src/views/Root/index.js" />
         <option value="$PROJECT_DIR$/.storybook/preview-head.html" />
-        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/index.js" />
+        <option value="$PROJECT_DIR$/src/views/Root/index.js" />
+        <option value="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" />
         <option value="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" />
+        <option value="$PROJECT_DIR$/src/assets/trash-alt.svg" />
         <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/index.js" />
       </list>
     </option>
   </component>
@@ -170,6 +156,12 @@
               <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
               <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,6 +186,25 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="SurveysMainPanel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -217,7 +228,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -236,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.STORYBOOK">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -290,17 +301,18 @@
       <workItem from="1595517155332" duration="3342000" />
       <workItem from="1595650910992" duration="615000" />
       <workItem from="1595663158403" duration="6118000" />
-      <workItem from="1595691624616" duration="543000" />
+      <workItem from="1595691624616" duration="3883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56340000" />
+    <option name="totallyTimeSpent" value="59680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="1920" height="2076" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67172414" visible="true" weight="0.28663793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67172414" visible="true" weight="0.28663793" />
       <window_info id="Structure" order="1" sideWeight="0.32827586" side_tool="true" weight="0.23760776" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -314,7 +326,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23578948" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23578948" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="RNConsole" order="13" />
@@ -515,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/mainTheme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/MainTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -542,37 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1211">
-          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Root/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -581,8 +559,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButton/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="364">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/eraser.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/trash-alt.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#4#155#0" />
+            <element signature="e#4#86#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/mainTheme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
         </state>
       </provider>
     </entry>

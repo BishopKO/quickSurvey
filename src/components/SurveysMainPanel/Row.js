@@ -7,7 +7,7 @@ import chartPieIcon from 'assets/chart-pie.svg';
 
 import OptionsMenu from 'components/atoms/OptionsMenu';
 
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 
 const StyledWrapperMobile = styled.div`
@@ -19,10 +19,13 @@ const StyledWrapperMobile = styled.div`
 `;
 
 const StyledStatusMobile = styled.div`
-  height: 80px;
-  //margin-top: 1px;
+  height: 80px; 
   width: 100%; 
-  background-color: ${({ theme }) => theme.green};  
+  background-color: ${({ theme }) => theme.grey}; 
+ 
+  ${({ active }) => active && css`
+      background-color: ${({ theme }) => theme.green}; 
+  `}
 `;
 
 const StyledSurveyMain = styled.div`
@@ -67,11 +70,11 @@ const StyledOptions = styled.div`
 `;
 
 
-const Row = ({ mobile, activateOptions, number, open }) => {
+const Row = ({ active, mobile, activateOptions, number, open }) => {
   if (mobile) {
     return (
       <StyledWrapperMobile>
-        <StyledStatusMobile/>
+        <StyledStatusMobile active={active}/>
         <StyledSurveyMain>
           <div><a href=".">Survey title...</a></div>
           <div>Created: 12/07/2020 17:10</div>
