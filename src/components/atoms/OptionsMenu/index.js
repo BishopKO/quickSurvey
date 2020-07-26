@@ -1,6 +1,6 @@
 import React from 'react';
 import IconButton from 'components/atoms/IconButton';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import ellipsisIcon from 'assets/ellipsis-h.svg';
 import editIcon from 'assets/edit.svg';
@@ -20,20 +20,24 @@ const StyledWrapper = styled.div`
 
 const StyledMenu = styled.div`
   position: absolute;
-  top: -50px;
-  left: -110px;
+  left: -117px;
+  top: -69px;
   background-color: white;
   font-family: inherit;  
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 0 2px 1px lightgray;
-  padding: 3px;
-  width: 120px;
+  box-shadow: 0 0 2px 1px lightgray; 
+  width: 130px;
+  
+  ${({ mobile }) => mobile && css`
+    top: -53px;
+     left: -115px;
+  `} 
    
   ul{
     list-style: none;
     margin: 0;
-    padding: 0;    
+    padding: 5px;    
   }
 `;
 
@@ -61,7 +65,7 @@ const StyledMenuButton = styled(IconButton)`
 `;
 
 
-const OptionsMenu = ({ activateOptions, number, open }) => {
+const OptionsMenu = ({ mobile, activateOptions, number, open }) => {
   const handleShowOptions = () => {
     activateOptions(number);
   };
@@ -69,10 +73,10 @@ const OptionsMenu = ({ activateOptions, number, open }) => {
   return (
     <StyledWrapper>
       <IconButton icon={ellipsisIcon} onClick={handleShowOptions}/>
-      {open && <StyledMenu>
+      {open && <StyledMenu mobile={mobile}>
         <ul>
           <li><StyledMenuButton icon={editIcon} text="Edit title"/></li>
-          <li><StyledMenuButton icon={toolIcon} text="Apparance"/></li>
+          <li><StyledMenuButton icon={toolIcon} text="Appearance"/></li>
           <li><StyledMenuSplit/></li>
           <li><StyledMenuButton icon={eraserIcon} text="Clear Responses"/></li>
           <li><StyledMenuButton icon={trashIcon} text="Delete Survey"/></li>

@@ -5,78 +5,31 @@ import pencilIcon from 'assets/pencil-alt.svg';
 import linkIcon from 'assets/link.svg';
 import chartPieIcon from 'assets/chart-pie.svg';
 
+import pencilIconBlue from 'assets/pencil-alt-blue.svg';
+import linkIconBlue from 'assets/link-blue.svg';
+import chartPieIconBlue from 'assets/chart-pie-blue.svg';
+
 import OptionsMenu from 'components/atoms/OptionsMenu';
-
-import styled, { css } from 'styled-components';
-
-
-const StyledWrapperMobile = styled.div`
-  display: grid;
-  grid-template-columns: 4px 1fr 55px ;
-  height: 80px;
-  border-top: 1px solid lightgray;  
-  
-`;
-
-const StyledStatusMobile = styled.div`
-  height: 80px; 
-  width: 100%; 
-  background-color: ${({ theme }) => theme.grey}; 
- 
-  ${({ active }) => active && css`
-      background-color: ${({ theme }) => theme.green}; 
-  `}
-`;
-
-const StyledSurveyMain = styled.div`
-  display: grid;
-  grid-auto-rows: 20px 20px 40px;
-  padding-left: 20px;
-  padding-top: 10px;
-  
-  a{
-    text-decoration: none;
-    color: ${({ theme }) => theme.blue};
-    font-weight: bold;
-  }
-  
-  div:nth-child(2){
-    font-size: 10px;
-  }
-  
-  div:nth-child(3){
-  ul{
-    padding: 0;
-    margin: 0; 
-  }
-  li{    
-      display: inline-block;
-      list-style: none;
-      margin-right: 6px;    
-     }    
-  }   
-`;
-
-const StyledOptions = styled.div`
-  display: flex;
-  height: 100%;
-  width: 100%;  
-  justify-content: center;
-  align-items: center;
-  
-  span{
-    padding-right: 20px;
-  }
-`;
+import {
+  StyledWrapperMobile,
+  StyledStatusMobile,
+  StyledSurveyMainMobile,
+  StyledWrapperDesktop,
+  StyledStatusDesktop,
+  StyledSurveyMainDesktop,
+  StyledOptions,
+  StyledIconButton,
+  StyledOptionsUl,
+} from './Row.styles';
 
 
-const Row = ({ active, mobile, activateOptions, number, open }) => {
+const Row = ({ mobile, active, activateOptions, number, open }) => {
   if (mobile) {
     return (
       <StyledWrapperMobile>
         <StyledStatusMobile active={active}/>
-        <StyledSurveyMain>
-          <div><a href=".">Survey title...</a></div>
+        <StyledSurveyMainMobile>
+          <div><a href="">Survey title...</a></div>
           <div>Created: 12/07/2020 17:10</div>
           <div>
             <ul>
@@ -85,17 +38,41 @@ const Row = ({ active, mobile, activateOptions, number, open }) => {
               <li><IconButton icon={chartPieIcon}/></li>
             </ul>
           </div>
-        </StyledSurveyMain>
+        </StyledSurveyMainMobile>
         <StyledOptions>
-          <OptionsMenu activateOptions={activateOptions} number={number} open={open}/>
+          <OptionsMenu mobile activateOptions={activateOptions} number={number} open={open}/>
         </StyledOptions>
       </StyledWrapperMobile>
     );
   } else {
     return (
-      <div>Desktop</div>
+      <StyledWrapperDesktop>
+        <StyledStatusDesktop active={active}>
+          <input type="checkbox" checked={active}/>
+        </StyledStatusDesktop>
+
+
+        <StyledSurveyMainDesktop>
+          <a href="">Desktop example survey...</a>
+          <span>Created: 12/07/2020 17:10</span>
+        </StyledSurveyMainDesktop>
+
+        <div>07/10/2002 22:19</div>
+
+        <StyledOptionsUl>
+          <li><StyledIconButton icon={pencilIconBlue}/></li>
+          <li><StyledIconButton icon={linkIconBlue}/></li>
+          <li><StyledIconButton icon={chartPieIconBlue}/></li>
+        </StyledOptionsUl>
+
+
+        <StyledOptions>
+          <OptionsMenu activateOptions={activateOptions} number={number} open={open}/>
+        </StyledOptions>
+      </StyledWrapperDesktop>
     );
   }
+
 };
 
 export default Row;

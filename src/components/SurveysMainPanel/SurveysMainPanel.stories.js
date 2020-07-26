@@ -3,5 +3,5 @@ import SurveysMainPanel from './index';
 import { storiesOf } from '@storybook/react';
 
 storiesOf('Components/Surveys Panel', module)
-  .add('Normal', () => <SurveysMainPanel/>)
+  .add('Desktop', () => <SurveysMainPanel/>)
   .add('Mobile', () => <SurveysMainPanel mobile/>);

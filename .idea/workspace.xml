@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" line="12" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" line="25" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="952aa5e8-de28-45b3-8ad3-ae9cecb80843" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/chart-pie-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/link-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pencil-alt-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SurveysMainPanel/SurveyMainPanel.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/SearchInput/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SurveysMainPanel/SurveysMainPanel.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SurveysMainPanel/SurveysMainPanel.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SurveysMainPanel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SurveysMainPanel/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/mainTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/mainTheme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Root/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+            <state relative-caret-position="572">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/atoms/SearchInput/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+            <state relative-caret-position="468">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -41,23 +54,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/theme/mainTheme.js">
+        <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="533">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#4#87#0" />
+                <element signature="e#4#218#0" />
+                <element signature="e#59#216#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="1092">
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#4#155#0" />
-                <element signature="e#4#86#0" />
+                <element signature="e#759#1429#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/SurveyMainPanel.styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <folding>
+                <element signature="e#4#186#0" />
+                <element signature="e#4#30#0" />
+                <element signature="e#4#27#0" />
+                <element signature="e#4#23#0" />
+                <element signature="e#4#403#0" />
+                <element signature="e#176#292#0" />
+                <element signature="e#210#284#0" />
+                <element signature="e#321#350#0" />
+                <element signature="e#4#79#0" />
+                <element signature="e#4#154#0" />
+                <element signature="e#113#147#0" />
               </folding>
             </state>
           </provider>
@@ -108,16 +157,28 @@
         <option value="$PROJECT_DIR$/BACKEND/test-auth.js" />
         <option value="$PROJECT_DIR$/src/components/LoginRegister/loginRegister.stories.js" />
         <option value="$PROJECT_DIR$/.storybook/main.js" />
-        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/SurveysMainPanel.stories.js" />
-        <option value="$PROJECT_DIR$/src/theme/mainTheme.js" />
         <option value="$PROJECT_DIR$/src/assets/editIcon.svg" />
         <option value="$PROJECT_DIR$/.storybook/preview-head.html" />
-        <option value="$PROJECT_DIR$/src/views/Root/index.js" />
-        <option value="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" />
-        <option value="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" />
         <option value="$PROJECT_DIR$/src/assets/trash-alt.svg" />
-        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" />
+        <option value="$PROJECT_DIR$/src/assets/search.svg" />
+        <option value="$PROJECT_DIR$/src/theme/mainTheme.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/SurveysMainPanel.stories.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/RowMobile.styles.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/RowMobile.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/RowDesktop.styles.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/Mobile/index.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/RowDesktop.js" />
+        <option value="$PROJECT_DIR$/src/views/Root/index.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/SurveyMainPanel.styles.js" />
+        <option value="$PROJECT_DIR$/src/assets/chart-pie-blue.svg" />
+        <option value="$PROJECT_DIR$/src/assets/link-blue.svg" />
+        <option value="$PROJECT_DIR$/src/assets/pencil-alt-blue.svg" />
         <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/index.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" />
+        <option value="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" />
+        <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.styles.js" />
+        <option value="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" />
+        <option value="$PROJECT_DIR$/src/components/atoms/SearchInput/index.js" />
       </list>
     </option>
   </component>
@@ -134,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,12 +216,6 @@
               <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
               <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -178,6 +232,14 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="atoms" type="462c0819:PsiDirectoryNode" />
               <item name="IconButton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="atoms" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchInput" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
@@ -209,13 +271,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django_react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -232,7 +295,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/SurveysMainPanel" />
+      <recent name="$PROJECT_DIR$/src/components/SurveysMainPanel/Mobile" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components/SurveysMainPanel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,18 +370,19 @@
       <workItem from="1595517155332" duration="3342000" />
       <workItem from="1595650910992" duration="615000" />
       <workItem from="1595663158403" duration="6118000" />
-      <workItem from="1595691624616" duration="3883000" />
+      <workItem from="1595691624616" duration="13255000" />
+      <workItem from="1595769015758" duration="6833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59680000" />
+    <option name="totallyTimeSpent" value="75885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="1920" height="2076" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67172414" visible="true" weight="0.28663793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67172414" visible="true" weight="0.29148707" />
       <window_info id="Structure" order="1" sideWeight="0.32827586" side_tool="true" weight="0.23760776" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -326,7 +396,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23578948" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23578948" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="RNConsole" order="13" />
@@ -472,16 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.storybook/themeDecorator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.storybook/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -513,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/SurveysMainPanel.stories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
@@ -547,37 +600,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Root/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButton/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/eraser.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/trash-alt.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/search.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Mobile/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/RowDesktop.styles.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/RowDesktop.js" />
+    <entry file="file://$PROJECT_DIR$/.storybook/themeDecorator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#4#155#0" />
-            <element signature="e#4#86#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Root/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -585,24 +635,101 @@
     <entry file="file://$PROJECT_DIR$/src/theme/mainTheme.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/chart-pie-blue.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/link-blue.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/pencil-alt-blue.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/SurveysMainPanel.stories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+        <state relative-caret-position="1092">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#759#1429#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButton/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/SurveyMainPanel.styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#4#186#0" />
+            <element signature="e#4#30#0" />
+            <element signature="e#4#27#0" />
+            <element signature="e#4#23#0" />
+            <element signature="e#4#403#0" />
+            <element signature="e#176#292#0" />
+            <element signature="e#210#284#0" />
+            <element signature="e#321#350#0" />
+            <element signature="e#4#79#0" />
+            <element signature="e#4#154#0" />
+            <element signature="e#113#147#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#4#87#0" />
+            <element signature="e#4#218#0" />
+            <element signature="e#59#216#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+        <state relative-caret-position="572">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/atoms/SearchInput/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

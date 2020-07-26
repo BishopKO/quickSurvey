@@ -5,6 +5,7 @@ const mainTheme = {
   },
   black: 'rgb(85,85,85)',
   grey: 'rgb(102, 102, 102)',
+  lightgrey: 'rgb(146, 146, 146)',
   green: 'rgb(47, 140, 88)',
   blue: 'rgb(18, 122, 184)',
 };
