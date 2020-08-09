@@ -4,14 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" line="25" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="952aa5e8-de28-45b3-8ad3-ae9cecb80843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PublishSurvey/PublishSurvey.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PublishSurvey/PublishSurvey.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PublishSurvey/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/mainTheme.bck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/mainTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/mainTheme.js" afterDir="false" />
-    </list>
+    <list default="true" id="952aa5e8-de28-45b3-8ad3-ae9cecb80843" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/PublishSurvey/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -33,8 +26,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/SurveyDesign/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -128,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/components/PublishSurvey/PublishSurvey.styles.js" />
         <option value="$PROJECT_DIR$/src/components/PublishSurvey/index.js" />
         <option value="$PROJECT_DIR$/src/components/SurveyDesign/index.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/index.js" />
       </list>
     </option>
   </component>
@@ -167,13 +177,6 @@
               <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="SurveyDesign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
@@ -262,8 +265,8 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
-      <item itemvalue="npm.npm start" />
       <item itemvalue="npm.STORYBOOK" />
+      <item itemvalue="npm.npm start" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -294,18 +297,17 @@
       <workItem from="1595769015758" duration="7509000" />
       <workItem from="1596790394666" duration="540000" />
       <workItem from="1596830033011" duration="1059000" />
-      <workItem from="1596982080978" duration="3814000" />
+      <workItem from="1596982080978" duration="4145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81974000" />
+    <option name="totallyTimeSpent" value="82305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="1920" height="2076" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67172414" visible="true" weight="0.23706897" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67172414" visible="true" weight="0.23706897" />
       <window_info id="Structure" order="1" sideWeight="0.32827586" side_tool="true" weight="0.23760776" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -319,7 +321,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23526315" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23526315" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="RNConsole" order="13" />
@@ -564,16 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -653,15 +645,29 @@
     <entry file="file://$PROJECT_DIR$/src/components/PublishSurvey/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SurveyDesign/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
