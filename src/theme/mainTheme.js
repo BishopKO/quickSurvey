@@ -12,6 +12,7 @@ const mainTheme = {
   lightgreen: 'rgb(32, 190, 59)',
   red: 'rgb(134, 38, 41)',
   blue: 'rgb(18, 122, 184)',
+  lightblue: 'rgb(226, 245, 252)',
 };
 
 export default mainTheme;

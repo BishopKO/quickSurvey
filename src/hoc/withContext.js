@@ -4,9 +4,9 @@ import Context from './index';
 const withContext = Component => {
   return function wrapper(props) {
     return (
-      <Context.Conusmer>
+      <Context.Consumer>
         {context => <Component {...props} context={context}/>}
-      </Context.Conusmer>
+      </Context.Consumer>
     );
   };
 };

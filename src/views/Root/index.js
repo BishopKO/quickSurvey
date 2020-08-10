@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import MainTemplate from 'templates/MainTemplate';
 // import LoginRegister from 'components/LoginRegister';
+import DesignSurvey from 'components/DesignSurvey';
 import SurveyMainPanel from 'components/SurveysMainPanel';
 
 const Root = () => {
@@ -17,12 +18,7 @@ const Root = () => {
 
   return (
     <MainTemplate>
-      {width > 600 &&
-      <SurveyMainPanel desktop/>
-      }
-      {width <= 600 &&
-      <SurveyMainPanel mobile/>
-      }
+      <DesignSurvey/>
     </MainTemplate>
   );
 };
