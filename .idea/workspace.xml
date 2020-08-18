@@ -6,23 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="952aa5e8-de28-45b3-8ad3-ae9cecb80843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/palette.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sort.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DesignSurvey/AddQuestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DesignSurvey/QuestionTypeModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DesignSurvey/TitleBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DesignSurvey/styles/DesignSurvey.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/IconButtonWithLabel.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DesignSurvey/MultipleOneAnswer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/BigButton/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storybook/preview-head.html" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview-head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/themeDecorator.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/themeDecorator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DesignSurvey/AddQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DesignSurvey/AddQuestion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DesignSurvey/QuestionTypeModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DesignSurvey/QuestionCreateModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DesignSurvey/TitleBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DesignSurvey/TitleBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DesignSurvey/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DesignSurvey/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/withContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DesignSurvey/stories/QuestionTypeModal.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DesignSurvey/stories/QuestionTypeModal.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DesignSurvey/styles/DesignSurvey.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DesignSurvey/styles/DesignSurvey.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme/mainTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/mainTheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,23 +28,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/MultipleOneAnswer/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1370">
+              <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#1146#1259#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/QuestionCreateModal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="803">
+              <caret line="94" column="42" lean-forward="true" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/AddQuestion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+            <state relative-caret-position="754">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="26" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/QuestionTypeModal.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/IconButtonWithLabel.stories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1014">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="208">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -57,10 +78,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/stories/QuestionTypeModal.stories.js">
+        <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/styles/DesignSurvey.styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="416">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1164">
+              <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -69,12 +99,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/stories/DesignSurvey.stories.js">
+        <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" />
+            <state relative-caret-position="806">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,6 +125,7 @@
       <find>console</find>
       <find>fill</find>
       <find>stroke</find>
+      <find>backgro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,15 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/templates/MainTemplate.js" />
-        <option value="$PROJECT_DIR$/src/components/LoginRegister/LoginRegister.styles.js" />
-        <option value="$PROJECT_DIR$/src/store/reducer.js" />
-        <option value="$PROJECT_DIR$/src/store/index.js" />
-        <option value="$PROJECT_DIR$/src/components/LoginRegister/index.js" />
-        <option value="$PROJECT_DIR$/src/hoc/context.js" />
-        <option value="$PROJECT_DIR$/src/components/LoginRegister/utils/validate.test.js" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/src/components/LoginRegister/utils/validate.js" />
         <option value="$PROJECT_DIR$/BACKEND/test-auth.js" />
         <option value="$PROJECT_DIR$/src/components/LoginRegister/loginRegister.stories.js" />
         <option value="$PROJECT_DIR$/.storybook/main.js" />
@@ -132,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.js" />
         <option value="$PROJECT_DIR$/src/components/atoms/OptionsMenu/index.js" />
         <option value="$PROJECT_DIR$/src/components/SurveysMainPanel/Row.styles.js" />
-        <option value="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" />
         <option value="$PROJECT_DIR$/src/components/atoms/SearchInput/index.js" />
         <option value="$PROJECT_DIR$/src/components/PublishSurvey/PublishSurvey.styles.js" />
         <option value="$PROJECT_DIR$/src/components/PublishSurvey/index.js" />
@@ -141,19 +162,29 @@
         <option value="$PROJECT_DIR$/src/views/Root/index.js" />
         <option value="$PROJECT_DIR$/src/components/atoms/IconButtonWithText/IconButtonWithText.js" />
         <option value="$PROJECT_DIR$/src/components/atoms/IconButtonWithText/IconButtonWithLabel.js" />
-        <option value="$PROJECT_DIR$/.storybook/preview-head.html" />
         <option value="$PROJECT_DIR$/src/components/atoms/IconButtonWithText/IconButtonWithLabel.stories.js" />
         <option value="$PROJECT_DIR$/src/components/atoms/IconButtonWithText/index.js" />
-        <option value="$PROJECT_DIR$/src/theme/mainTheme.js" />
-        <option value="$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/index.js" />
-        <option value="$PROJECT_DIR$/src/components/DesignSurvey/TitleBar.js" />
-        <option value="$PROJECT_DIR$/src/components/DesignSurvey/styles/DesignSurvey.styles.js" />
         <option value="$PROJECT_DIR$/src/hoc/withContext.js" />
         <option value="$PROJECT_DIR$/src/hoc/index.js" />
-        <option value="$PROJECT_DIR$/src/components/DesignSurvey/index.js" />
         <option value="$PROJECT_DIR$/src/components/DesignSurvey/stories/QuestionTypeModal.stories.js" />
-        <option value="$PROJECT_DIR$/src/components/DesignSurvey/AddQuestion.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/styles/DesignSurvey.styles.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/index.js" />
+        <option value="$PROJECT_DIR$/src/components/atoms/BigButton/BigButton.js" />
+        <option value="$PROJECT_DIR$/.storybook/preview-head.html" />
+        <option value="$PROJECT_DIR$/.storybook/themeDecorator.js" />
         <option value="$PROJECT_DIR$/src/components/DesignSurvey/QuestionTypeModal.js" />
+        <option value="$PROJECT_DIR$/src/theme/mainTheme.js" />
+        <option value="$PROJECT_DIR$/src/components/atoms/BigButton/index.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/TitleBar.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/AddQuestion.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/styles/MultipleOneAnswer/MultipleOneAnswer.stories.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/styles/MultipleOneAnswer/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/index.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/stories/MultipleOneAnswer.stories.js" />
+        <option value="$PROJECT_DIR$/src/components/atoms/IconButton/index.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/QuestionCreateModal.js" />
+        <option value="$PROJECT_DIR$/src/components/DesignSurvey/MultipleOneAnswer/index.js" />
       </list>
     </option>
   </component>
@@ -206,6 +237,14 @@
               <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="atoms" type="462c0819:PsiDirectoryNode" />
+              <item name="IconButtonWithLabel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="DesignSurvey" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,32 +253,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="DesignSurvey" type="462c0819:PsiDirectoryNode" />
-              <item name="stories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="PublishSurvey" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quick-survey" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="MultipleOneAnswer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="quick-survey" type="b2602c69:ProjectViewProjectNode" />
@@ -286,9 +300,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/DesignSurvey/stories" />
+      <recent name="$PROJECT_DIR$/src/components/DesignSurvey" />
+      <recent name="$PROJECT_DIR$/src/components/atoms" />
       <recent name="$PROJECT_DIR$/src/components/SurveysMainPanel" />
       <recent name="$PROJECT_DIR$/src/components/SurveysMainPanel/Mobile" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.STORYBOOK">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -362,24 +377,30 @@
       <workItem from="1596790394666" duration="540000" />
       <workItem from="1596830033011" duration="1059000" />
       <workItem from="1596982080978" duration="3814000" />
-      <workItem from="1597042714670" duration="18348000" />
+      <workItem from="1597042714670" duration="18659000" />
+      <workItem from="1597087415645" duration="2698000" />
+      <workItem from="1597142157374" duration="1274000" />
+      <workItem from="1597221140017" duration="2638000" />
+      <workItem from="1597319549636" duration="1081000" />
+      <workItem from="1597660143832" duration="1592000" />
+      <workItem from="1597705829612" duration="12945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111166000" />
+    <option name="totallyTimeSpent" value="133705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="1920" height="2076" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67172414" visible="true" weight="0.24084052" />
-      <window_info id="Structure" order="1" sideWeight="0.32827586" side_tool="true" weight="0.23760776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6707844" visible="true" weight="0.2650862" />
+      <window_info id="Structure" order="1" sideWeight="0.32921556" side_tool="true" visible="true" weight="0.2650862" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14789474" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14789474" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -387,7 +408,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23526315" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23501578" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="RNConsole" order="13" />
@@ -427,42 +448,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BACKEND/test.js" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BACKEND/test-auth.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/LoginRegister/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2028">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.storybook/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LoginRegister/loginRegister.stories.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -492,16 +477,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/Mobile/index.js" />
     <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/RowDesktop.styles.js" />
     <entry file="file://$PROJECT_DIR$/src/components/SurveysMainPanel/RowDesktop.js" />
-    <entry file="file://$PROJECT_DIR$/.storybook/themeDecorator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/chart-pie-blue.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -585,31 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButton/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Root/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <element signature="e#160#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.storybook/preview-head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/MainTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -617,13 +567,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/mainTheme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -651,16 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/IconButtonWithLabel.stories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PublishSurvey/PublishSurvey.styles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
@@ -674,16 +607,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/PublishSurvey/PublishSurvey.stories.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -707,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/styles/DesignSurvey.styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hoc/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -721,22 +637,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/TitleBar.js">
+    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/stories/QuestionTypeModal.stories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" selection-start-line="22" selection-end-line="30" selection-end-column="2" />
+        <state relative-caret-position="78">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -751,32 +657,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/stories/QuestionTypeModal.stories.js">
+    <entry file="file://$PROJECT_DIR$/.storybook/preview-head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        <state relative-caret-position="468">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/themeDecorator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/mainTheme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/atoms/BigButton/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/TitleBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Root/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#160#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/close.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/stories/MultipleOneAnswer.stories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/IconButtonWithLabel.stories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButtonWithLabel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1164">
+          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/atoms/IconButton/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/styles/DesignSurvey.styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/AddQuestion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        <state relative-caret-position="754">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/QuestionCreateModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="94" column="42" lean-forward="true" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/QuestionTypeModal.js">
+    <entry file="file://$PROJECT_DIR$/src/components/DesignSurvey/MultipleOneAnswer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="1370">
+          <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#1146#1259#0" />
           </folding>
         </state>
       </provider>

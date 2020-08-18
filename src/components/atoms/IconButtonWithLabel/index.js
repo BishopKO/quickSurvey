@@ -3,11 +3,11 @@ import styled, { css } from 'styled-components';
 
 
 const StyledButton = styled.button`
-  height: 20px;
-  width: 35px;    
+  height: 12px;
+  width: ${({ width }) => width || '40px'};    
   display: flex;
   flex-direction: row;  
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-family: inherit;
   border: none;
@@ -18,6 +18,10 @@ const StyledButton = styled.button`
   :focus{
     outline: none; 
   }
+  
+  :hover{
+    cursor: pointer;
+  }  
   
   ${({ active }) => active && css`
     background: ${({ theme }) => theme.lightblue};
@@ -33,14 +37,15 @@ const StyledImg = styled.img`
 `;
 
 const StyledParagraph = styled.p`  
-  font-size: inherit;
+  font-size: inherit; 
+  width: 200px;  
   padding: 0;
   margin-left: 3px;    
 `;
 
-const Index = ({ label, icon, active }) => {
+const Index = ({ label, icon, active, width }) => {
   return (
-    <StyledButton active={active}>
+    <StyledButton active={active} width={width}>
       <StyledImg src={icon}/>
       <StyledParagraph>{label}</StyledParagraph>
     </StyledButton>

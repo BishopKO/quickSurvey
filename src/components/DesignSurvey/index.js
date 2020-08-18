@@ -33,16 +33,16 @@ const DesignSurvey = () => {
         <span>Survey Design</span>
         <StyledUl>
           <StyledLi>
-            <IconButtonWithLabel icon={penIcon} label="Design"/>
+            <IconButtonWithLabel active icon={penIcon} label="Design"/>
           </StyledLi>
           <StyledLi>
-            <IconButtonWithLabel icon={themeIcon} label="Theme"/>
+            <IconButtonWithLabel active icon={themeIcon} label="Theme"/>
           </StyledLi>
           <StyledLi>
-            <IconButtonWithLabel icon={sortIcon} label="Organise"/>
+            <IconButtonWithLabel active icon={sortIcon} label="Organise"/>
           </StyledLi>
           <StyledLi>
-            <IconButtonWithLabel icon={toolIcon} label="Settings"/>
+            <IconButtonWithLabel active icon={toolIcon} label="Settings"/>
           </StyledLi>
         </StyledUl>
       </StyledNav>

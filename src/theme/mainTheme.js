@@ -13,6 +13,8 @@ const mainTheme = {
   red: 'rgb(134, 38, 41)',
   blue: 'rgb(18, 122, 184)',
   lightblue: 'rgb(226, 245, 252)',
+  lineargreen: 'rgb(100,200,100)',
+  linearblue: 'rgb(77, 148, 190)',
 };
 
 export default mainTheme;

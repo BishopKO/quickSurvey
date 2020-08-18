@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import QuestionTypeModal from './QuestionTypeModal';
+import QuestionCreateModal from './QuestionCreateModal';
+import BigButton from 'components/atoms/BigButton';
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -10,15 +11,6 @@ const StyledWrapper = styled.div`
   align-items: center;
 `;
 
-const StyledButton = styled.button`
-  height: 15px;
-  background-color: ${({ theme }) => theme.green};
-  border: none;
-  border-radius: 3px;
-  color: white;
-  font-family: inherit;
-  font-size: 10px;  
-`;
 
 const AddQuestion = () => {
   const [showModal, setShowModal] = useState(true);
@@ -33,9 +25,9 @@ const AddQuestion = () => {
 
   return (
     <StyledWrapper>
-      <StyledButton onClick={handleShowQuestionModal}>Add Question</StyledButton>
+      <BigButton green onClick={handleShowQuestionModal}>Add Question</BigButton>
       {showModal &&
-      <QuestionTypeModal close={handleCloseQuestionModal}/>}
+      <QuestionCreateModal close={handleCloseQuestionModal}/>}
     </StyledWrapper>
   );
 };

@@ -6,7 +6,7 @@ export const StyledWrapper = styled.div`
     grid-template-rows: 20px 30px 1fr 100px;
     width: 300px; 
     transform-origin: top;   
-    font-size: 8px;     
+    font-size: 6px;     
     -webkit-transform: ${({ scale }) => `scale(${scale})`};
     transform: ${({ scale }) => `scale(${scale})`};        
 
@@ -36,8 +36,12 @@ export const StyledUl = styled.ul`
 ;
 
 export const StyledLi = styled.li`
-  margin-right: 10px;
-  border-radius: 2px;
+  margin-right: 5px;
+  border-radius: 2px; 
+  
+  :hover{   
+    cursor: pointer;
+  }
 
   ${({ active }) => active && css`
     background: lightblue;
