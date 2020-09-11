@@ -13,7 +13,7 @@ const StyledWrapper = styled.div`
 
 
 const AddQuestion = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   const handleShowQuestionModal = () => {
     setShowModal(true);
@@ -26,8 +26,7 @@ const AddQuestion = () => {
   return (
     <StyledWrapper>
       <BigButton green onClick={handleShowQuestionModal}>Add Question</BigButton>
-      {showModal &&
-      <QuestionCreateModal close={handleCloseQuestionModal}/>}
+      {showModal && <QuestionCreateModal close={handleCloseQuestionModal}/>}
     </StyledWrapper>
   );
 };

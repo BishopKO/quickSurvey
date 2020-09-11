@@ -23,7 +23,7 @@ export const StyledPanelTop = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 40px; 
-  background-color: ${({ theme }) => theme.black};  
+  background-color: ${({ theme }) => theme.black};    
   
   p{
     color: white;
@@ -58,7 +58,7 @@ export const StyledPanelHead = styled.div`
   
    ${({ mobile }) => mobile && css`
      grid-template-columns: 3px 1fr 55px; 
-      padding-left: 20px; 
+     padding-left: 5px; 
   `}
   
   ${({ desktop }) => desktop && css`

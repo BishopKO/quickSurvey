@@ -3,18 +3,29 @@ import styled, { css } from 'styled-components';
 
 
 const StyledButton = styled.button`
+  position: relative;
+  display: flex;
   height: 12px;
   width: ${({ width }) => width || '40px'};    
-  display: flex;
-  flex-direction: row;  
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   font-family: inherit;
   border: none;
-  background: none;
+  border-radius: 3px;
   font-size: inherit;
-  margin-right: 3px;
+  margin-right: 3px;    
+  background-image: ${({ icon }) => `url(${icon})`};
+  background-repeat: no-repeat;
+  background-size: 7px;
+  background-position: 3px; 
   
+  ::after{
+    content: "${({ label }) => `${label}`}";
+    font-family: inherit;
+    position: absolute;
+    right: 3px;  
+  }
+    
   :focus{
     outline: none; 
   }
@@ -23,34 +34,16 @@ const StyledButton = styled.button`
     cursor: pointer;
   }  
   
-  ${({ active }) => active && css`
+  &.active{
     background: ${({ theme }) => theme.lightblue};
+    background-image: ${({ icon }) => `url(${icon})`};  
+    background-repeat: no-repeat;
+    background-size: 8px;
+    background-position: 3px;  
     border-radius: 3px;
-  `};
-  
+    color: black;
+  };  
 `;
 
-const StyledImg = styled.img`
-  height: 1em; 
-  margin: 0;
-  padding: 0;
-`;
 
-const StyledParagraph = styled.p`  
-  font-size: inherit; 
-  width: 200px;  
-  padding: 0;
-  margin-left: 3px;    
-`;
-
-const Index = ({ label, icon, active, width }) => {
-  return (
-    <StyledButton active={active} width={width}>
-      <StyledImg src={icon}/>
-      <StyledParagraph>{label}</StyledParagraph>
-    </StyledButton>
-  );
-
-};
-
-export default Index;
+export default StyledButton;

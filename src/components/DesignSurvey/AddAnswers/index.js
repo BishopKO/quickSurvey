@@ -8,6 +8,7 @@ const StyledWrapper = styled.div`
   display: flex;
   align-items: center;  
   flex-direction: column;
+  border-bottom: ${({ theme }) => `0.2px dotted ${theme.lightgrey}`};  
 `;
 
 const StyledAnswerWrapper = styled.div`
@@ -16,6 +17,8 @@ const StyledAnswerWrapper = styled.div`
   width: 250px;  
   justify-content: center;
   align-items: center;
+  margin-bottom: 5px;
+  
   p{
     margin-right: 5px;
     font-weight: bold;   

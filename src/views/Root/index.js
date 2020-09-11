@@ -4,6 +4,8 @@ import MainTemplate from 'templates/MainTemplate';
 import DesignSurvey from 'components/DesignSurvey';
 import SurveyMainPanel from 'components/SurveysMainPanel';
 
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
 const Root = () => {
   useEffect(() => {
     window.addEventListener('resize', handleResize);
@@ -18,8 +20,15 @@ const Root = () => {
 
   return (
     <MainTemplate>
-      <DesignSurvey/>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/panel" component={() => <SurveyMainPanel/>}/>
+          <Route path="/panel-mobile" component={() => <SurveyMainPanel mobile/>}/>
+          <Route path="/design" component={() => <DesignSurvey/>}/>
+        </Switch>
+      </BrowserRouter>
     </MainTemplate>
+
   );
 };
 

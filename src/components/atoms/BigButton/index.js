@@ -20,6 +20,10 @@ const StyleBigButton = styled.button`
   ${({ blue }) => blue && css`
     background-image: -webkit-linear-gradient(rgb(18, 122, 184), rgb(77, 148, 190));
   `};
+  
+  ${({ red }) => red && css`
+    background-image: -webkit-linear-gradient(rgb(104, 28, 41), rgb(230, 90, 90));
+  `};
 `;
 
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Row from './Row';
 import SearchInput from 'components/atoms/SearchInput';
+import BigButton from 'components/atoms/BigButton';
 import { StyledWrapper, StyledPanelHead, StyledPanelTop, StyledPanelMobile } from './SurveyMainPanel.styles';
 
 

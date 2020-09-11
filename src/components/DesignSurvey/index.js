@@ -4,9 +4,12 @@ import penIcon from 'assets/pencil-alt.svg';
 import themeIcon from 'assets/palette.svg';
 import toolIcon from 'assets/tools.svg';
 import sortIcon from 'assets/sort.svg';
-import { StyledWrapper, StyledNav, StyledUl, StyledLi } from './styles/DesignSurvey.styles';
+import { StyledWrapper, StyledNav, StyledUl, StyledLi } from './styles/DesignSurveyStyles';
 import TitleBar from './TitleBar';
 import AddQuestion from './AddQuestion';
+
+
+import { NavLink } from 'react-router-dom';
 
 const DesignSurvey = () => {
   useEffect(() => {
@@ -33,23 +36,21 @@ const DesignSurvey = () => {
         <span>Survey Design</span>
         <StyledUl>
           <StyledLi>
-            <IconButtonWithLabel active icon={penIcon} label="Design"/>
+            <IconButtonWithLabel as={NavLink} to="/design" icon={penIcon} label="Design" activeClassName="active"/>
           </StyledLi>
           <StyledLi>
-            <IconButtonWithLabel active icon={themeIcon} label="Theme"/>
+            <IconButtonWithLabel icon={themeIcon} label="Theme"/>
           </StyledLi>
           <StyledLi>
-            <IconButtonWithLabel active icon={sortIcon} label="Organise"/>
+            <IconButtonWithLabel icon={sortIcon} label="Organise"/>
           </StyledLi>
           <StyledLi>
-            <IconButtonWithLabel active icon={toolIcon} label="Settings"/>
+            <IconButtonWithLabel icon={toolIcon} label="Settings"/>
           </StyledLi>
         </StyledUl>
       </StyledNav>
       <TitleBar/>
       <AddQuestion/>
-
-
     </StyledWrapper>
 
   );
